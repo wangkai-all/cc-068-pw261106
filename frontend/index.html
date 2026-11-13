@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>本地工时数据整理</title>
+  <link rel="stylesheet" href="/css/app.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">⏱</span>
+      <div>
+        <h1>工时数据整理</h1>
+        <p class="subtitle">本地批次 · 导入预览 · DST/跨夜/缺卡规则 · 不连接薪资系统</p>
+      </div>
+    </div>
+    <nav class="tabs" id="tabs">
+      <button data-view="import" class="tab active">导入与预览</button>
+      <button data-view="batches" class="tab">本地批次</button>
+      <button data-view="summary" class="tab">周期汇总</button>
+      <button data-view="issues" class="tab">缺卡与问题</button>
+      <button data-view="conflicts" class="tab">冲突处理</button>
+      <button data-view="sources" class="tab">来源与映射</button>
+      <button data-view="trace" class="tab">员工追溯</button>
+    </nav>
+  </header>
+
+  <main id="view" class="view"></main>
+
+  <div id="toast" class="toast hidden"></div>
+  <div id="modal-root"></div>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

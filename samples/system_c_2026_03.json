@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "emp_code": "C300",
+      "date": "2026-03-09",
+      "clock": "08:00",
+      "action": "check-in"
+    },
+    {
+      "emp_code": "C300",
+      "date": "2026-03-09",
+      "clock": "17:00",
+      "action": "check-out"
+    },
+    {
+      "emp_code": "C300",
+      "date": "2026-03-10",
+      "clock": "09:00",
+      "action": "check-in"
+    }
+  ]
+}

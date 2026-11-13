@@ -1,4 +1,3 @@
-
 .env
 .env.*
 !.env.example
@@ -17,6 +16,7 @@ test-results/
 *.log
 *.zip
 *.7z
+
 *.tar
 *.gz
 *.db
@@ -31,3 +31,6 @@ test-results/
 *.sqlite3-wal
 *.sqlite3-shm
 *.sqlite3-journal
+
+# 运行时数据（本地批次数据库与暂存文件）
+/data/
